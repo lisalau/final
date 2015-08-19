@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<meta charset="utf-8"> 
+<head>
+    <title>Is It Poison Ivy?</title>
+    <link href="plants.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+
+<body>
+    <div class="page-container">
+        <ul class="main-nav">
+            <li><a href="poisonivy.html">Learn</a></li>
+            <li><a href="plants.html">Identify</a></li>
+            <li class="current-page"><a href="quiz.html">Quiz</a></li>
+        </ul>
+        
+        <div class="row page-header">
+            <h1>Leaves of Three</h1>
+            <h6>Can you identify poison ivy?</h6>
+        </div>
+        <div class="row"><h2>Test your ID skills! Take the Poison Plant Quiz:</h2></div>
+        <div class="row quiz-panel">
+            <p class="quiz">1. Which is Poison Ivy?</p>
+            <ul class="quiz-list">
+                <li>
+                    <p class="hidden-content dangerous">This one is poisonous!</p>
+                    <img class="image-quiz" src="images/poisonivy.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content safe">This one is safe: strawberry</p>
+                    <img class="image-quiz" src="http://www.plantsystematics.org/users/kcn2/5_23_06_s/DSC_4856.JPG.29.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content safe">This one is safe: strawberry</p>    
+                    <img class="image-quiz" src="images/quizstrawberry.jpg">
+                </li>
+            </ul>            
+        </div>
+        <div class="row quiz-panel">
+            <p class="quiz">2. Which is Poison Oak?</p>
+            <ul class="quiz-list">
+                <li>
+                    <p class="hidden-content safe">This one is safe: clover</p>
+                    <img class="image-quiz" src="images/clover.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content safe">This one is safe: blackberry</p>
+                    <img class="image-quiz" src="images/thornyblackberry.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content dangerous">This one is poisonous!!</p>
+                    <img class="image-quiz" src="images/poisonoak.jpg">
+                </li>
+            </ul>            
+        </div>
+        <div class="row quiz-panel">
+            <p class="quiz">3. Which is Poison Sumac?</p>
+            <ul class="quiz-list">
+                <li>
+                    <p class="hidden-content safe">This one is safe: staghorn</p>    
+                    <img class="image-quiz" src="images/hairysumac.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content dangerous">This one is poisonous!!!</p>
+                    <img class="image-quiz" src="images/poisonsumac.jpg">
+                </li>
+                <li>
+                    <p class="hidden-content safe">This one is safe: staghorn</p>
+                    <img class="image-quiz" src="images/hairyleaves.jpg"></li>
+            </ul>            
+        </div>
+    </div>
+    <script>
+        $('.quiz-panel li').click(function(){
+            $(this).find('.hidden-content').css('display', 'block');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

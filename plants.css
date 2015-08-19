@@ -1,0 +1,156 @@
+* {
+	margin:0; padding:0;
+}
+
+body {
+	font-size: 100%;
+	font-family: "Arial", sans-serif;
+	background-color: white;
+	margin: 0 20px;
+}
+
+.row {
+	clear: both;
+	margin-bottom: 20px;
+	overflow-y: overlay;
+}
+
+a {
+	color: #d96820;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.10em;
+	font-weight: 500;
+}
+
+a:hover {
+	color: #FEC180;
+}
+
+.page-container {
+	max-width: 960px;
+	margin: 0 auto 100px auto;
+	padding: 20px 20px;
+	background-color: white;
+}
+
+.page-header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.main-nav {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+	right: 10px;
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.60em;
+}
+
+.main-nav li {
+	float: left;
+	padding: 5px 12px 5px 12px;
+}
+
+.main-nav a {
+    color: #d96820;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.main-nav a:hover {
+    color: #FEC180;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.40em;
+	padding: 10px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #424242;
+	font-weight: 400;
+	letter-spacing: 0.10em;
+}
+
+h3 {
+	color: #424242;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h6 {	
+	text-align: center; 
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #437853;
+	letter-spacing: 0.10em;
+}
+
+.image-lookalikes {
+	float: left;
+	width: 20%;
+	margin-right: 2rem;
+	max-width: 500px;
+}
+
+.image-toxicodendrons-drawing {
+	float: right;
+	width: 20%;
+	margin-left: 2rem;
+	max-width: 500px;
+}
+
+.quiz-list li {
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	margin-right: 15px;
+}
+
+.quiz {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: #437853;
+}
+
+.image-quiz {
+	object-fit: cover;
+	max-width: 300px;
+	height: 250px;
+}
+
+.hidden-content {
+	display: none;
+	color: #fff;
+	font-size: 1.25em;
+	padding: 3px 5px 3px 5px;
+	position: absolute;
+}
+
+.dangerous {
+	background-color:red;
+}
+
+.safe {
+	background-color: #00b200;		
+}
+
+.ten {
+	line-height: 1.5;
+	margin: 0 0 0 5px;
+}
+
+.current-page {
+	text-decoration: underline;
+}
